@@ -1,0 +1,59 @@
+{
+  "dataset_type": "Synthetic demonstration data",
+  "rows": 1200,
+  "train_rows": 960,
+  "test_rows": 240,
+  "class_counts": {
+    "Uncomfortable": 700,
+    "Normal": 500
+  },
+  "best_parameters": {
+    "knn__n_neighbors": 11,
+    "knn__weights": "distance"
+  },
+  "test_accuracy": 0.8958333333333334,
+  "test_precision_macro": 0.894347920121116,
+  "test_recall_macro": 0.8907142857142857,
+  "test_f1_macro": 0.8923786120428333,
+  "confusion_matrix_labels": [
+    "Normal",
+    "Uncomfortable"
+  ],
+  "confusion_matrix": [
+    [
+      86,
+      14
+    ],
+    [
+      11,
+      129
+    ]
+  ],
+  "classification_report": {
+    "Normal": {
+      "precision": 0.8865979381443299,
+      "recall": 0.86,
+      "f1-score": 0.8730964467005076,
+      "support": 100.0
+    },
+    "Uncomfortable": {
+      "precision": 0.9020979020979021,
+      "recall": 0.9214285714285714,
+      "f1-score": 0.911660777385159,
+      "support": 140.0
+    },
+    "accuracy": 0.8958333333333334,
+    "macro avg": {
+      "precision": 0.894347920121116,
+      "recall": 0.8907142857142857,
+      "f1-score": 0.8923786120428333,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.8956395837839136,
+      "recall": 0.8958333333333334,
+      "f1-score": 0.8955923062665543,
+      "support": 240.0
+    }
+  }
+}

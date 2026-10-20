@@ -6,7 +6,7 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
 st.set_page_config(page_title="Poultry-House Monitor", page_icon="🐔", layout="centered")
-st.title("STUDENTS NAMES")
+st.title("STUDENT NAMES")
 st.title("1. MUGISHA EMMANUEL")
 st.title("2. NSABIMANA RUKUNDO OLIVIER")
 st.title("🐔 Poultry-House Monitor")

@@ -6,12 +6,11 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
 st.set_page_config(page_title="Poultry-House Monitor", page_icon="🐔", layout="centered")
-st.title("MUGISHA EMMANUEL")
-st.title("NSABIMANA RUKUNDO OLIVIER")
+st.title("STUDENT INFORMATION")
+st.title("1. MUGISHA EMMANUEL")
+st.title("2. NSABIMANA RUKUNDO OLIVIER")
 st.title("🐔 Poultry-House Monitor")
 st.write("Classify poultry-house conditions from temperature, humidity, and light level using K-Nearest Neighbours (KNN).")
-st.warning("DEMONSTRATION ONLY: trained on synthetic, rule-generated data. Scores and predictions are not validated poultry-welfare guidance. Replace with real, expert-labelled data before operational use.")
-
 @st.cache_resource
 def load_model():
     return joblib.load(ROOT / "poultry_knn_model.joblib")
